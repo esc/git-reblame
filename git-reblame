@@ -8,8 +8,6 @@ fi
 AUTHOR=$1
 AUTHOR_NAME=$(echo $AUTHOR | perl -wlne '/^(.*)\s*<.*>$/ and print $1')
 AUTHOR_EMAIL=$(echo $AUTHOR | perl -wlne '/^.*\s*<(.*)>$/ and print $1')
-echo $AUTHOR_NAME
-echo $AUTHOR_EMAIL
 
 git filter-branch --commit-filter "
   export GIT_AUTHOR_NAME=$AUTHOR_NAME;

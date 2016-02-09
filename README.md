@@ -33,8 +33,6 @@ Checking connectivity... done.
      1  Linus Torvalds
      1  Ryan Jacobs
 % git reblame "Valentin Haenel <valentin@haenel.co>"
-Valentin Haenel
-valentin@haenel.co
 Rewrite 07b4f92f3c0aacf268a40c0f489cf7392421300a (11/11)
 Ref 'refs/heads/master' was rewritten
 Valentin Haenel  is now the author of ALL the commits on the current branch.
